@@ -74,7 +74,7 @@ namespace PerformanceCalculator.Simulate
             var categoryAttribs = new Dictionary<string, double>();
             double pp = ruleset.CreatePerformanceCalculator(workingBeatmap, scoreInfo).Calculate(categoryAttribs);
 
-            Console.WriteLine(workingBeatmap.BeatmapInfo.ToString());
+            //Console.WriteLine(workingBeatmap.BeatmapInfo.ToString());
 
             WritePlayInfo(scoreInfo, beatmap);
 
